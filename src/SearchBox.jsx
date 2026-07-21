@@ -6,7 +6,8 @@ import { useState } from 'react';
 export default function SearchBox({updateInfo}) {
    let[city,setCity] = useState("");
    let[error,setError] = useState(false);
-   const API_URL = "https://api.openweathermap.org/geo/1.0/direct";
+   const [loading, setLoading] = useState(false);
+
    const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
    const API_KEY = "dc38d6f70812ce0a31089510ef48cb6d";
 
@@ -47,6 +48,7 @@ let getWeatherInfo = async () => {
    event.preventDefault();
 
    setError(false);
+   setLoading(true);
 
    const newInfo = await getWeatherInfo();
 
@@ -54,6 +56,7 @@ let getWeatherInfo = async () => {
      updateInfo(newInfo);
      setCity("");
     }
+    setLoading(false);
   };
 
     return (
@@ -61,7 +64,7 @@ let getWeatherInfo = async () => {
         <form onSubmit={handleSubmit}>
         <div className="searchContainer">
 
-    <TextField id="city" placeholder="Search any city..." variant ="outlined" value={city} onChange={handleChange} fullWidth
+    <TextField id="city" placeholder="Search any city..." variant ="outlined" value={city} onChange={handleChange} fullWidth disabled={loading}
     sx={{
         "& .MuiOutlinedInput-root": {
             borderRadius: "18px",
@@ -71,7 +74,7 @@ let getWeatherInfo = async () => {
         }
     }}
 />
-     <Button variant="contained" type="submit" className="searchButton">🔍 Search </Button>
+     <Button variant="contained" type="submit" className="searchButton" disabled={loading}>  {loading ? "Searching..." : "🔍 Search"} </Button>
        </div> 
        {error && <p style={{color:"red"}}>No Such place exits!</p>}
        </form>
