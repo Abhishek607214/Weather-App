@@ -1,16 +1,251 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ Weather Forecast App
 
-Currently, two official plugins are available:
+### A modern weather application built with React, Vite & Material UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  Search any city in the world and get real-time weather information with a beautiful UI.
+</p>
 
-## React Compiler
+<p align="center">
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?logo=mui)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Live-success)
 
-## Expanding the ESLint configuration
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌍 Live Demo
+
+👉 **https://weather-app-beta-roan-14.vercel.app**
+
+### ⭐ Don't forget to Star this repository!
+
+</div>
+
+---
+
+# 📖 Overview
+
+Weather Forecast App is a responsive web application that provides **real-time weather information** for cities around the world.
+
+The application fetches live weather data from the **OpenWeather API** and displays it in a modern Material UI interface with support for Dark Mode.
+
+---
+
+# ✨ Features
+
+✅ Search weather by city name
+
+✅ Real-time temperature
+
+✅ Feels Like temperature
+
+✅ Humidity
+
+✅ Minimum & Maximum Temperature
+
+✅ Weather description
+
+✅ Dynamic weather images
+
+✅ Loading animation
+
+✅ Error handling
+
+✅ Dark / Light Mode
+
+✅ Responsive Design
+
+---
+
+# 📸 Screenshots
+
+## ☀️ Light Mode
+
+<p align="center">
+<img src="./screenshots/light-mode.png" width="800">
+</p>
+
+---
+
+## 🌙 Dark Mode
+
+<p align="center">
+<img src="./screenshots/dark-mode.png" width="800">
+</p>
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| React | Frontend Framework |
+| Vite | Build Tool |
+| Material UI | UI Components |
+| JavaScript | Programming Language |
+| HTML5 | Markup |
+| CSS3 | Styling |
+| OpenWeather API | Weather Data |
+| Git | Version Control |
+| GitHub | Repository |
+| Vercel | Deployment |
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Abhishek607214/Weather-App.git
+```
+
+Move into the project
+
+```bash
+cd Weather-App
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file
+
+```env
+VITE_WEATHER_API_KEY=YOUR_API_KEY
+```
+
+Run the application
+
+```bash
+npm run dev
+```
+
+---
+
+# 📂 Folder Structure
+
+```
+Weather-App
+│
+├── public
+├── screenshots
+├── src
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   └── assets
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# 🌐 API Used
+
+**OpenWeather API**
+
+Features used
+
+- Current Weather
+- Temperature
+- Humidity
+- Feels Like
+- Weather Condition
+
+---
+
+# 📈 Performance
+
+✅ Fast Loading
+
+✅ Mobile Responsive
+
+✅ Modern Material UI
+
+✅ API Integration
+
+✅ Clean Component Structure
+
+---
+
+# 🎯 Future Improvements
+
+- 📍 Detect Current Location
+- ⭐ Favourite Cities
+- 🌤 7-Day Forecast
+- 🌅 Sunrise & Sunset
+- 🌧 Rain Probability
+- 🌬 Wind Speed
+- 🌡 °C / °F Toggle
+- 🕒 Hourly Forecast
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the project
+
+2. Create your feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit
+
+```bash
+git commit -m "Added New Feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+---
+
+# 👨‍💻 Author
+
+## Abhishek Singh
+
+GitHub
+
+https://github.com/Abhishek607214
+
+LinkedIn
+
+(Add your LinkedIn Profile)
+
+---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+**Please give it a ⭐ on GitHub.**
+
+---
+
+<div align="center">
+
+Made with ❤️ using React & Material UI
+
+</div>
