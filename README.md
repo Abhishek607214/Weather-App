@@ -68,7 +68,8 @@ The application fetches live weather data from the **OpenWeather API** and displ
 ## ☀️ Light Mode
 
 <p align="center">
-<img src="./screenshots/light-mode.png" width="800">
+<img src="./screenshots/light-mode.png" width="800<img width="1877" height="958" alt="image" src="https://github.com/user-attachments/assets/9eb80880-bad9-4615-b24f-b047660ee8bd" />
+">
 </p>
 
 ---
@@ -76,7 +77,8 @@ The application fetches live weather data from the **OpenWeather API** and displ
 ## 🌙 Dark Mode
 
 <p align="center">
-<img src="./screenshots/dark-mode.png" width="800">
+<img src="<img width="1872" height="956" alt="image" src="https://github.com/user-attachments/assets/ab913c58-c6a5-4c52-946b-e158df4bb925" />
+">
 </p>
 
 ---
